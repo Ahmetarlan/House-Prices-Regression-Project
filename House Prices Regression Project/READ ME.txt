@@ -21,11 +21,11 @@ XGBoost: Label Encoding with lower learning rate and early stopping.
 CatBoost: Label Encoding, early stopping, and hyperparameter tuning.
 
 Performance Comparison
-Model	Test MSE	Test R²
-CatBoost	483,996,451	0.9104
-XGBoost	519,024,352	0.9039
-Random Forest	615,578,101	0.8860
-Ridge	1,281,102,381	0.7628
+Model	          Test MSE	        Test R²
+CatBoost	      483,996,451	        0.9104
+XGBoost	        519,024,352	        0.9039
+Random Forest	  615,578,101	        0.8860
+Ridge	          1,281,102,381	      0.7628
 
 CatBoost showed the best performance.
 
@@ -59,11 +59,11 @@ XGBoost: Label Encoding, düşük öğrenme hızı ve erken durdurma.
 CatBoost: Label Encoding, erken durdurma ve hiperparametre optimizasyonu.
 
 Performans Karşılaştırması
-Model	Test MSE	Test R²
-CatBoost	483,996,451	0.9104
-XGBoost	519,024,352	0.9039
-Random Forest	615,578,101	0.8860
-Ridge	1,281,102,381	0.7628
+Model	           Test MSE	      Test R²
+CatBoost	      483,996,451	    0.9104
+XGBoost	        519,024,352	    0.9039
+Random Forest	  615,578,101	    0.8860
+Ridge	          1,281,102,381	  0.7628
 
 En iyi sonuç CatBoost modelinde elde edilmiştir.
 
