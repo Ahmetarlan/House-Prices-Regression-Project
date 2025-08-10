@@ -1,0 +1,73 @@
+English README Explanation
+House Prices Regression Project
+This project aims to predict house prices using the House Prices: Advanced Regression Techniques dataset from Kaggle. The workflow includes data cleaning, preprocessing, hyperparameter tuning, and comparison of different machine learning models.
+
+Dataset
+Source: Kaggle – House Prices (train.csv)
+
+Contains both numerical and categorical features.
+
+Missing values handled by median imputation or filling with specific category labels.
+
+Columns with excessive missing data or little information were dropped.
+
+Models and Approaches
+Ridge Regression: Linear model with One-Hot Encoding and feature scaling.
+
+Random Forest: Label Encoding for categorical variables and hyperparameter optimization.
+
+XGBoost: Label Encoding with lower learning rate and early stopping.
+
+CatBoost: Label Encoding, early stopping, and hyperparameter tuning.
+
+Performance Comparison
+Model	Test MSE	Test R²
+CatBoost	483,996,451	0.9104
+XGBoost	519,024,352	0.9039
+Random Forest	615,578,101	0.8860
+Ridge	1,281,102,381	0.7628
+
+CatBoost showed the best performance.
+
+Ridge regression, being a simpler linear model, performed worse compared to tree-based models.
+
+About Me:
+This project is part of my journey to improve my data science and machine learning skills. I'm continuously learning and experimenting with real datasets like this to deepen my understanding and build better models. Feedback and collaboration are always welcome!
+
+------------------------
+
+
+Konut Fiyatları Regresyon Projesi
+Bu proje, Kaggle’daki House Prices: Advanced Regression Techniques veri setini kullanarak konut fiyatlarını tahmin etmeyi amaçlamaktadır. Veri temizleme, ön işleme, hiperparametre optimizasyonu ve farklı makine öğrenimi modellerinin karşılaştırılması yapılmıştır.
+
+Veri Seti
+Kaynak: Kaggle – House Prices (train.csv)
+
+Sayısal ve kategorik özellikler içermektedir.
+
+Eksik değerler median ile doldurulmuş veya özel kategori olarak işaretlenmiştir.
+
+Çok eksik ya da bilgi içermeyen sütunlar kaldırılmıştır.
+
+Kullanılan Modeller ve Yaklaşımlar
+Ridge Regression: One-Hot Encoding ve standartlaştırma ile doğrusal model.
+
+Random Forest: Kategorik değişkenlerde Label Encoding, hiperparametre ayarı.
+
+XGBoost: Label Encoding, düşük öğrenme hızı ve erken durdurma.
+
+CatBoost: Label Encoding, erken durdurma ve hiperparametre optimizasyonu.
+
+Performans Karşılaştırması
+Model	Test MSE	Test R²
+CatBoost	483,996,451	0.9104
+XGBoost	519,024,352	0.9039
+Random Forest	615,578,101	0.8860
+Ridge	1,281,102,381	0.7628
+
+En iyi sonuç CatBoost modelinde elde edilmiştir.
+
+Ridge regression daha basit doğrusal model olduğu için diğerlerine göre daha düşük performans göstermiştir.
+
+Hakkımda:
+Bu proje, veri bilimi ve makine öğrenimi becerilerimi geliştirmek için yaptığım çalışmaların bir parçasıdır. Gerçek veri setleri üzerinde denemeler yaparak öğrenmeye ve daha iyi modeller oluşturmaya devam ediyorum. Geri bildirim ve iş birliklerine her zaman açığım!
